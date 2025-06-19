@@ -491,6 +491,13 @@ model_cards: ModelCardCollection = {
       "MLXDynamicShardInferenceEngine": "mlx-community/Qwen2.5-Math-72B-Instruct-4bit",
     },
   ),
+    "Qwen3-30B-A3B-4bit-DWQ-0508": ModelCard(
+    pretty_name="Qwen3-30B-A3B-4bit-DWQ-0508",
+    layers=48,
+    repo={
+      "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-30B-A3B-4bit-DWQ-0508",
+    },
+  ),
   ### nemotron
   "nemotron-70b": ModelCard(
     pretty_name="Nemotron 70B",
