@@ -34,6 +34,7 @@ class ModelNotFoundError(Exception):
 MODEL_REMAPPING = {
   "mistral": "llama",  # mistral is compatible with llama
   "phi-msft": "phixtral",
+  "qwen3_moe": "qwen3",
 }
 
 
