@@ -300,12 +300,12 @@ class ChatGPTAPI:
     if DEBUG >= 2: print(f"[ChatGPTAPI] Processing prompt: {request_id=} {shard=} {prompt=}")
 
     try:
-      await asyncio.wait_for(asyncio.shield(asyncio.create_task(self.node.process_prompt(
+      await asyncio.wait_for(asyncio.create_task(self.node.process_prompt(
         shard,
         prompt,
         request_id=request_id,
         generation_options=chat_request.to_generation_options()
-      ))), timeout=self.response_timeout)
+      )), timeout=self.response_timeout)
 
       if DEBUG >= 2:
         print(f"[ChatGPTAPI] Waiting for response to finish. timeout={self.response_timeout}s")
