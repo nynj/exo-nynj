@@ -500,7 +500,7 @@ model_cards: ModelCardCollection = {
   ),
   "Qwen3-235B-A22B-3bit-DWQ": ModelCard(
     pretty_name="Qwen3-235B-A22B-3bit-DWQ",
-    layers=48,
+    layers=94,
     repo={
       "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-235B-A22B-3bit-DWQ",
     },
