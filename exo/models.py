@@ -498,6 +498,13 @@ model_cards: ModelCardCollection = {
       "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-30B-A3B-4bit-DWQ-0508",
     },
   ),
+  "Qwen3-30B-A3B-8bit": ModelCard(
+    pretty_name="Qwen3-30B-A3B-8bit",
+    layers=48,
+    repo={
+      "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-30B-A3B-8bit",
+    },
+  ),
   "Qwen3-30B-A3B-bf16": ModelCard(
     pretty_name="Qwen3-30B-A3B-bf16",
     layers=48,
